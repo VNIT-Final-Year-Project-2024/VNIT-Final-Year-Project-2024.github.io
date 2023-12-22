@@ -1,7 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Connect App</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <!-- Header -->
+  <section id="header">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="logo-name d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="./assets/cc-app-icon.png" alt="icon" height=50>
+          <span class="fs-3"> Campus Connect App</span>
+        </a>
+
+        <ul class="nav nav-pills align-items-center">
+          <!-- <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li> -->
+          <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="https://github.com/VNIT-Final-Year-Project-2024" class="nav-link">GitHub</a></li>
+        </ul>
+      </header>
+    </div>
+  </section>
+
+  <!-- Title -->
+  <section id="title" class="gradient-background">
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="hero-text text-white display-3 fw-semibold">Join The Campus!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="text-white hero-subtext">
+          Welcome to our exclusive campus social networking app, where connections thrive and campus life comes alive! Dive into a vibrant community tailored to your university, where you can seamlessly share experiences, manage events, and forge lasting friendships. 
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-light btn-lg px-4 me-sm-3">Sign Up</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Log In</button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="./assets/bootstrap-hero.png" class="img-fluid border rounded-3 shadow-lg" alt="Example image" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="container px-4 py-5" id="featured-3">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="./assets/verification.png" height=40>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Get Verified</h3>
+          <p>Users are verified before being onboarded. We make sure only legit profiles are here, so that you don't have to!</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="./assets/alerts.png" height=40>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Stay Alerted</h3>
+          <p>Remain up-to-date on all the latest buzz, club events and social gatherings...no more being left out.</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="./assets/connection.png" height=40>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Make Connections</h3>
+          <p>Explore the campus, make friends and build your own network - startups, clubs, study groups...endless possibilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">Made with ❤️ at VNIT Nagpur</p>
+    
+        <a href="https://vnit.ac.in/cse/" class="col-md-4 d-flex align-items-right justify-content-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
+          <img src="./assets/dept_logo.png" height=60>
+        </a>
+      </footer>
+    </div>
+  </section>
+
 </body>
+
 </html>
