@@ -35,8 +35,19 @@
   margin-bottom: 0 !important;
 }
 
+.logo {
+  margin-right: 20px;
+}
+
+@media (min-width: 250px) and (max-width: 325px) {
+  .logo {
+    margin-left: 20px;
+  }
+}
+
 .logo-name {
   margin-bottom: 0 !important;
+  text-align: center !important;
 }
 
 .hero-text {
