@@ -2,7 +2,6 @@
     background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
-    min-width: 380px;
   }
   
   @keyframes gradient-animation {
@@ -86,6 +85,8 @@
   margin-bottom: 0 !important;
 }
 
-.container {
-  min-width: 380px;
+.foot-note {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
