@@ -2,6 +2,7 @@
     background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
+    min-width: 380px;
   }
   
   @keyframes gradient-animation {
@@ -14,7 +15,7 @@
     100% {
       background-position: 0% 50%;
     }
-}
+  }
 
 .text-center {
     margin-top: 40px;
@@ -45,7 +46,11 @@
 }
 
 .hero-subtext {
-  margin-bottom: 40px !important;
+  margin-bottom: 30px !important;
+}
+
+.overflow-hidden {
+  max-height: 350px;
 }
 
 /* .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -55,6 +60,12 @@
 
 .nav-link {
   color: #7952b3;
+}
+
+@media (min-width: 475px) and (max-width: 768px) {
+  .nav-pills {
+    margin-left: 25px;
+  }
 }
 
 .feature-icon {
@@ -71,4 +82,10 @@
 
 .dept-logo {
   justify-content: right;
+  align-items: center !important;
+  margin-bottom: 0 !important;
+}
+
+.container {
+  min-width: 380px;
 }
